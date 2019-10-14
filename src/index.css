@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#root {
+  font-family: sans-serif;
+  color: #00cb78;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.App {
+  background-color: #454545;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+.done {
+  color: black;
+  text-decoration: line-through;
+}
+ body {
+  font-family: 'Grenze', serif;
+ }
+
+ /* .bkg-img {
+   background-image: background.jpg;
+ } */
