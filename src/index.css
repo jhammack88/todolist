@@ -4,6 +4,7 @@
 }
 
 .App {
+  background-image: url(./images/background.jpg);
   background-color: #454545;
   border-radius: 5px;
   padding: 10px;
@@ -23,10 +24,6 @@
   color: black;
   text-decoration: line-through;
 }
- body {
-  font-family: 'Grenze', serif;
- }
-
- /* .bkg-img {
-   background-image: background.jpg;
- } */
+body {
+  font-family: "Grenze", serif;
+}
